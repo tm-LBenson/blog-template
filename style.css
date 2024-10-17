@@ -1,0 +1,44 @@
+#navbar {
+  display: flex;
+
+  justify-content: end;
+  align-items: center;
+
+  gap: 20px;
+
+  list-style-type: none;
+}
+
+
+#firstchild{
+  display: flex;
+}
+
+
+.img-wrapper{
+  width: 500px;
+}
+
+.img{
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+
+
+.d-flex{
+  display: flex;
+  gap: 15px;
+}
+
+
+/* @media (width < 600px) {
+
+
+  #firstchild{
+      flex-direction: column;
+  }
+
+
+
+} */
